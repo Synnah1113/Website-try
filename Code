@@ -3,32 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Willkommen auf meiner Website</title>
+  <title>Minecraft Fan-Seite</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #667eea, #764ba2);
-      color: white;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #1e1e1e;
+      color: #e0e0e0;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
+      min-height: 100vh;
+      background-image: url('https://wallpapercave.com/wp/wp2757874.jpg');
+      background-size: cover;
+      background-position: center;
+      backdrop-filter: brightness(0.5);
+    }
+    .content {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 2rem;
+      border-radius: 15px;
+      margin: 3rem;
+      max-width: 700px;
     }
     h1 {
       font-size: 3em;
       margin-bottom: 0.5em;
+      color: #00ff00;
     }
     p {
       font-size: 1.2em;
-      max-width: 600px;
+      line-height: 1.5;
     }
     a {
-      color: #ffd700;
+      color: #00ffff;
       text-decoration: none;
-      font-weight: bold;
     }
     a:hover {
       text-decoration: underline;
@@ -36,10 +47,20 @@
   </style>
 </head>
 <body>
-  <h1>👋 Hallo, ich bin [Dein Name]</h1>
-  <p>Willkommen auf meiner persönlichen Website! Hier findest du Infos über mich, meine Projekte und mehr.</p>
-  <p>
-    Schau dir meinen Code auf <a href="https://github.com/DEIN-GITHUB-NAME" target="_blank">GitHub</a> an.
-  </p>
+  <div class="content">
+    <h1> Wilkommen zu Minecraft</h1>
+    <p>
+      Minecraft ist eines meiner Fav spiele, da ich bei diesem abschalten kann.
+    </p>
+    <p>
+      Ich spiele es aktiv und manage einen eigenen Server mit einer anderen Person und ich liebe es zu bauen.
+    </p>
+    <p>
+      <strong>Meine Lieblingsmods:</strong>  Alle möglichen Horror mods und Quality of Life wie JEI oder Maps
+    </p>
+    <p>
+      Schau auch mal auf meinem <a href="https://github.com/Synnah1113"target="_blank">GitHub</a> vorbei!
+    </p>
+  </div>
 </body>
 </html>
